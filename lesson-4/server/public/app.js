@@ -54,7 +54,7 @@ socket.on("message", (data) => {
     <span class="post__header--name">${name}</span>
     <span class="post__header--time">${time}</span>
   </div>
-  <div clas="post__text">${text}</div>`;
+  <div class="post__text">${text}</div>`;
   } else {
     li.innerHTML = `<div class="post__text">${text}</div>`;
   }
